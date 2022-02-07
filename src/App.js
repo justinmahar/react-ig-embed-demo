@@ -11,7 +11,6 @@ function App() {
         <IGEmbed
           url="https://www.instagram.com/p/CUbHfhpswxt/"
           style={{ width: 450 }}
-          retryDisabled
         />
       )}
     </div>
