@@ -7,12 +7,7 @@ function App() {
   return (
     <div>
       <button onClick={() => setShow(!show)}>{show ? "Hide" : "Show"}</button>
-      {show && (
-        <IGEmbed
-          url="https://www.instagram.com/p/CUbHfhpswxt/"
-          style={{ width: 450 }}
-        />
-      )}
+      {show && <IGEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" />}
     </div>
   );
 }
